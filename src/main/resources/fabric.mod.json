@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mixworld",
+  "version": "${version}",
+  "name": "MixWorld Core",
+  "description": "Server-side core for MixWorld (Grief).",
+  "authors": ["MixWorld"],
+  "license": "All-Rights-Reserved",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["ru.mixworld.core.MixWorldMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "luckperms": "*"
+  }
+}
